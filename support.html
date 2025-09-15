@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App 支援</title>
+    <title>髮帳 App 支援</title>
     <style>
         body {
             margin: 0;
@@ -30,7 +30,7 @@
 
         h1 {
             font-size: 1.8rem;
-            color: #3d432f; /* 深橄欖綠，跟你的品牌色 */
+            color: #3d432f; /* 深橄欖綠，品牌色 */
             margin-bottom: 16px;
         }
 
@@ -48,18 +48,31 @@
             border-radius: 8px;
             font-weight: 600;
             transition: background-color 0.2s;
+            word-break: break-word;
         }
 
         a:hover {
             background-color: #8a4930;
         }
+
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            p {
+                font-size: 0.95rem;
+            }
+            .container {
+                padding: 24px 16px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>感謝使用我們的 App！</h1>
+        <h1>感謝使用「髮帳」App！</h1>
         <p>如有任何問題，請透過以下方式聯絡我們：</p>
-        <a href="mailto:app.studio.hair@gmail.com">聯絡支援</a>
+        <a href="mailto:app.studio.hair@gmail.com?subject=App 支援：髮帳">聯絡支援</a>
     </div>
 </body>
 </html>
